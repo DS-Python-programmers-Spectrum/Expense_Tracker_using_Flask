@@ -1,0 +1,57 @@
+/* style.css */
+
+/* General Body Styling */
+body {
+    background-color: #cdd3da;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Container Styling */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #000000;
+}
+
+th {
+    background-color: #010708;
+    color: white;
+}
+
+td a {
+    color: #dc3545;
+    text-decoration: none;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+/* Add New Expense Link Styling */
+a {
+    display: inline-block;
+    padding: 10px;
+    background-color: #4fafdb;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+a:hover {
+    background-color: #e2b22e;
+}
